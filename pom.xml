@@ -15,7 +15,7 @@
     <description>im gateway</description>
 
     <properties>
-        <netty.version>4.1.17.Final</netty.version>
+        <netty.version>4.1.50.Final</netty.version>
         <source.version>1.8</source.version>
         <target.version>1.8</target.version>
     </properties>
