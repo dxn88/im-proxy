@@ -137,7 +137,8 @@ public class NettyServer {
                     throw th;
                 }
             }
-        }).option(ChannelOption.SO_BACKLOG, nettyConfig.getBacklog()).option(ChannelOption.SO_REUSEADDR, Boolean.parseBoolean(nettyConfig.getReuseAddr()))
+        }).option(ChannelOption.SO_BACKLOG, nettyConfig.getBacklog())
+                .option(ChannelOption.SO_REUSEADDR, Boolean.parseBoolean(nettyConfig.getReuseAddr()))
                 .option(ChannelOption.TCP_NODELAY, Boolean.parseBoolean(nettyConfig.getTcpNodelay()))
                 .childOption(ChannelOption.SO_KEEPALIVE, Boolean.parseBoolean(nettyConfig.getKeepalive()));
         try {
