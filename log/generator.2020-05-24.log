@@ -1,0 +1,898 @@
+21:15:16.982 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 27052 (D:\project\target\classes started by dxn in D:\project)
+21:15:16.982 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+21:15:17.012 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+21:15:17.362 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+21:15:17.372 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.585 seconds (JVM running for 1.674)
+21:15:17.432 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server time=2020-05-24 21:15:17,config = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}
+21:15:17.432 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - nettyConfig = {"so_keepalive":"true","tcp_nodelay":"true","epoll":"true","so_reuseaddr":"true","so_backlog":1024}
+21:15:17.432 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Netty is using Epoll
+21:16:29.560 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 7592 (D:\project\target\classes started by dxn in D:\project)
+21:16:29.560 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+21:16:29.590 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+21:16:29.940 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+21:16:29.950 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.606 seconds (JVM running for 1.232)
+21:16:30.010 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server time=2020-05-24 21:16:29,config = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}
+21:16:30.010 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - nettyConfig = {"so_keepalive":"true","tcp_nodelay":"true","epoll":"false","so_reuseaddr":"true","so_backlog":1024}
+21:16:30.010 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Netty is using NIO
+21:16:30.060 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server success time=2020-05-24 21:16:30
+21:42:02.075 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 6392 (D:\project\target\classes started by dxn in D:\project)
+21:42:02.075 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+21:42:02.105 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+21:42:02.465 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+21:42:02.495 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.672 seconds (JVM running for 1.3)
+21:42:02.505 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server time = 2020-05-24 21:42:02,config = {}
+21:42:02.535 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - serverConfig = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}, nettyConfig = {"reuseAddr":"true","backlog":1024,"tcpNodelay":"true","keepalive":"true","epoll":"false"}
+21:42:02.535 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Netty is using NIO
+21:42:02.585 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server success time = 2020-05-24 21:42:02
+21:42:58.115 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 3392 (D:\project\target\classes started by dxn in D:\project)
+21:42:58.115 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+21:42:58.145 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+21:42:58.474 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+21:42:58.514 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.635 seconds (JVM running for 1.274)
+21:42:58.514 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server time = 2020-05-24 21:42:58,config = {}
+21:42:58.554 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - serverConfig = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}, nettyConfig = {"reuseAddr":"true","backlog":1024,"tcpNodelay":"true","keepalive":"true","epoll":"false"}
+21:42:58.554 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Netty is using NIO
+21:42:58.604 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server success time = 2020-05-24 21:42:58
+21:46:24.056 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 24664 (D:\project\target\classes started by dxn in D:\project)
+21:46:24.066 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+21:46:24.096 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+21:46:24.415 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+21:46:24.425 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.591 seconds (JVM running for 1.225)
+21:46:24.425 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server time = 2020-05-24 21:46:24,config = {}
+21:46:24.495 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - serverConfig = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}, nettyConfig = {"reuseAddr":"true","backlog":1024,"tcpNodelay":"true","keepalive":"true","epoll":"false"}
+21:46:24.495 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Netty is using NIO
+21:46:24.545 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server success time = 2020-05-24 21:46:24
+21:47:06.673 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 636 (D:\project\target\classes started by dxn in D:\project)
+21:47:06.673 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+21:47:06.713 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+21:47:07.093 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+21:47:07.103 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.645 seconds (JVM running for 1.293)
+21:47:07.103 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server time = 2020-05-24 21:47:07,config = {}
+21:47:07.143 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - serverConfig = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}, nettyConfig = {"reuseAddr":"true","backlog":1024,"tcpNodelay":"true","keepalive":"true","epoll":"false"}
+21:47:07.143 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Netty is using NIO
+21:47:30.062 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server success time = 2020-05-24 21:47:30
+21:47:35.282 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 26124 (D:\project\target\classes started by dxn in D:\project)
+21:47:35.292 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+21:47:35.322 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+21:47:35.652 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+21:47:35.662 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.599 seconds (JVM running for 1.215)
+21:47:35.662 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server time = 2020-05-24 21:47:35,config = {}
+21:47:35.732 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - serverConfig = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}, nettyConfig = {"reuseAddr":"true","backlog":1024,"tcpNodelay":"true","webSocketInit":"true","keepalive":"true","epoll":"false"}
+21:47:35.732 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Netty is using NIO
+21:47:39.990 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Init websocket server
+21:47:39.990 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Binding server. host={0.0.0.0}, port={8090}
+21:47:40.230 [restartedMain] WARN  io.netty.bootstrap.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0x67911023]'
+21:47:40.240 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Server has been bound. host={0.0.0.0}, port={8090}
+21:54:03.909 [nioEventLoopGroup-3-1] ERROR com.dxn.im.netty.server.NettyServer - Severe error during pipeline creation
+java.util.NoSuchElementException: idleStateHandler
+	at io.netty.channel.DefaultChannelPipeline.getContextOrDie(DefaultChannelPipeline.java:1089)
+	at io.netty.channel.DefaultChannelPipeline.addAfter(DefaultChannelPipeline.java:320)
+	at io.netty.channel.DefaultChannelPipeline.addAfter(DefaultChannelPipeline.java:308)
+	at com.dxn.im.netty.server.NettyServer$1.init(NettyServer.java:117)
+	at com.dxn.im.netty.server.NettyServer$2.initChannel(NettyServer.java:133)
+	at com.dxn.im.netty.server.NettyServer$2.initChannel(NettyServer.java:127)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:113)
+	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:105)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:606)
+	at io.netty.channel.DefaultChannelPipeline.access$000(DefaultChannelPipeline.java:46)
+	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1412)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1131)
+	at io.netty.channel.DefaultChannelPipeline.invokeHandlerAddedIfNeeded(DefaultChannelPipeline.java:656)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:510)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:423)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:482)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+21:54:03.910 [nioEventLoopGroup-3-1] WARN  io.netty.channel.ChannelInitializer - Failed to initialize a channel. Closing: [id: 0xbc9e3c4d, L:/127.0.0.1:8090 - R:/127.0.0.1:63571]
+java.util.NoSuchElementException: idleStateHandler
+	at io.netty.channel.DefaultChannelPipeline.getContextOrDie(DefaultChannelPipeline.java:1089)
+	at io.netty.channel.DefaultChannelPipeline.addAfter(DefaultChannelPipeline.java:320)
+	at io.netty.channel.DefaultChannelPipeline.addAfter(DefaultChannelPipeline.java:308)
+	at com.dxn.im.netty.server.NettyServer$1.init(NettyServer.java:117)
+	at com.dxn.im.netty.server.NettyServer$2.initChannel(NettyServer.java:133)
+	at com.dxn.im.netty.server.NettyServer$2.initChannel(NettyServer.java:127)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:113)
+	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:105)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:606)
+	at io.netty.channel.DefaultChannelPipeline.access$000(DefaultChannelPipeline.java:46)
+	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1412)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1131)
+	at io.netty.channel.DefaultChannelPipeline.invokeHandlerAddedIfNeeded(DefaultChannelPipeline.java:656)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:510)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:423)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:482)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+21:54:10.146 [nioEventLoopGroup-3-2] ERROR com.dxn.im.netty.server.NettyServer - Severe error during pipeline creation
+java.util.NoSuchElementException: idleStateHandler
+	at io.netty.channel.DefaultChannelPipeline.getContextOrDie(DefaultChannelPipeline.java:1089)
+	at io.netty.channel.DefaultChannelPipeline.addAfter(DefaultChannelPipeline.java:320)
+	at io.netty.channel.DefaultChannelPipeline.addAfter(DefaultChannelPipeline.java:308)
+	at com.dxn.im.netty.server.NettyServer$1.init(NettyServer.java:117)
+	at com.dxn.im.netty.server.NettyServer$2.initChannel(NettyServer.java:133)
+	at com.dxn.im.netty.server.NettyServer$2.initChannel(NettyServer.java:127)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:113)
+	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:105)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:606)
+	at io.netty.channel.DefaultChannelPipeline.access$000(DefaultChannelPipeline.java:46)
+	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1412)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1131)
+	at io.netty.channel.DefaultChannelPipeline.invokeHandlerAddedIfNeeded(DefaultChannelPipeline.java:656)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:510)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:423)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:482)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+21:54:10.146 [nioEventLoopGroup-3-2] WARN  io.netty.channel.ChannelInitializer - Failed to initialize a channel. Closing: [id: 0x7b636416, L:/127.0.0.1:8090 - R:/127.0.0.1:63578]
+java.util.NoSuchElementException: idleStateHandler
+	at io.netty.channel.DefaultChannelPipeline.getContextOrDie(DefaultChannelPipeline.java:1089)
+	at io.netty.channel.DefaultChannelPipeline.addAfter(DefaultChannelPipeline.java:320)
+	at io.netty.channel.DefaultChannelPipeline.addAfter(DefaultChannelPipeline.java:308)
+	at com.dxn.im.netty.server.NettyServer$1.init(NettyServer.java:117)
+	at com.dxn.im.netty.server.NettyServer$2.initChannel(NettyServer.java:133)
+	at com.dxn.im.netty.server.NettyServer$2.initChannel(NettyServer.java:127)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:113)
+	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:105)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:606)
+	at io.netty.channel.DefaultChannelPipeline.access$000(DefaultChannelPipeline.java:46)
+	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1412)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1131)
+	at io.netty.channel.DefaultChannelPipeline.invokeHandlerAddedIfNeeded(DefaultChannelPipeline.java:656)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:510)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:423)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:482)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+21:57:42.916 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 18056 (D:\project\target\classes started by dxn in D:\project)
+21:57:42.916 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+21:57:42.946 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+21:57:43.296 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+21:57:43.336 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.642 seconds (JVM running for 1.277)
+21:57:43.336 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server time = 2020-05-24 21:57:43,config = {}
+21:57:43.376 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - serverConfig = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}, nettyConfig = {"reuseAddr":"true","backlog":1024,"tcpNodelay":"true","webSocketInit":"true","keepalive":"true","epoll":"false"}
+21:57:43.376 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Netty is using NIO
+21:57:43.416 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Init websocket server
+21:57:43.426 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Binding server. host={0.0.0.0}, port={8090}
+21:57:43.646 [restartedMain] WARN  io.netty.bootstrap.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0xf36729f8]'
+21:57:43.656 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Server has been bound. host={0.0.0.0}, port={8090}
+22:04:39.119 [nioEventLoopGroup-3-1] INFO  c.d.i.n.s.h.GateWayMessageHandler - An unexpected exception was caught while processing MQTT message. Closing Netty channel. CId={60c744c089f9e7a4ed3314ba50d8d696}, cause={null}, errorMessage={你的主机中的软件中止了一个已建立的连接。}
+java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+22:04:39.119 [nioEventLoopGroup-3-1] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {60c744c089f9e7a4ed3314ba50d8d696}.
+22:05:48.108 [nioEventLoopGroup-3-2] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {60c744c089f9e7a4ed3314ba50d8d696}.
+22:06:23.245 [nioEventLoopGroup-3-3] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {60c744c089f9e7a4ed3314ba50d8d696}.
+22:08:49.589 [nioEventLoopGroup-3-4] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {60c744c089f9e7a4ed3314ba50d8d696}.
+22:09:03.735 [nioEventLoopGroup-3-5] ERROR c.d.i.n.s.h.GateWayMessageHandler - Exception was caught while processing MQTT message, type={PUBLISH},null
+java.lang.IllegalArgumentException: messageId: -1 (expected: 1 ~ 65535)
+	at io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader.from(MqttMessageIdVariableHeader.java:31)
+	at com.dxn.im.netty.server.handler.AnswerPublishHandler.sendPubAck(AnswerPublishHandler.java:41)
+	at com.dxn.im.netty.server.handler.AnswerPublishHandler.receivedPublish(AnswerPublishHandler.java:33)
+	at com.dxn.im.netty.server.protocol.ProtocolProcessor.processPublish(ProtocolProcessor.java:276)
+	at com.dxn.im.netty.server.handler.GateWayMessageHandler.channelRead(GateWayMessageHandler.java:41)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.handler.codec.http.websocketx.Utf8FrameValidator.channelRead(Utf8FrameValidator.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler$1.channelRead(WebSocketServerProtocolHandler.java:204)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:138)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+22:09:03.735 [nioEventLoopGroup-3-5] WARN  i.n.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.IllegalArgumentException: messageId: -1 (expected: 1 ~ 65535)
+	at io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader.from(MqttMessageIdVariableHeader.java:31)
+	at com.dxn.im.netty.server.handler.AnswerPublishHandler.sendPubAck(AnswerPublishHandler.java:41)
+	at com.dxn.im.netty.server.handler.AnswerPublishHandler.receivedPublish(AnswerPublishHandler.java:33)
+	at com.dxn.im.netty.server.protocol.ProtocolProcessor.processPublish(ProtocolProcessor.java:276)
+	at com.dxn.im.netty.server.handler.GateWayMessageHandler.channelRead(GateWayMessageHandler.java:41)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.handler.codec.http.websocketx.Utf8FrameValidator.channelRead(Utf8FrameValidator.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler$1.channelRead(WebSocketServerProtocolHandler.java:204)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:138)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+22:09:03.736 [nioEventLoopGroup-3-5] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {60c744c089f9e7a4ed3314ba50d8d696}.
+22:25:19.528 [nioEventLoopGroup-3-6] ERROR c.d.i.n.s.h.GateWayMessageHandler - Exception was caught while processing MQTT message, type={PUBLISH},null
+java.lang.IllegalArgumentException: messageId: -1 (expected: 1 ~ 65535)
+	at io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader.from(MqttMessageIdVariableHeader.java:31)
+	at com.dxn.im.netty.server.handler.AnswerPublishHandler.sendPubAck(AnswerPublishHandler.java:41)
+	at com.dxn.im.netty.server.handler.AnswerPublishHandler.receivedPublish(AnswerPublishHandler.java:33)
+	at com.dxn.im.netty.server.protocol.ProtocolProcessor.processPublish(ProtocolProcessor.java:276)
+	at com.dxn.im.netty.server.handler.GateWayMessageHandler.channelRead(GateWayMessageHandler.java:41)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.handler.codec.http.websocketx.Utf8FrameValidator.channelRead(Utf8FrameValidator.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler$1.channelRead(WebSocketServerProtocolHandler.java:204)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:138)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+22:25:19.528 [nioEventLoopGroup-3-6] WARN  i.n.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.IllegalArgumentException: messageId: -1 (expected: 1 ~ 65535)
+	at io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader.from(MqttMessageIdVariableHeader.java:31)
+	at com.dxn.im.netty.server.handler.AnswerPublishHandler.sendPubAck(AnswerPublishHandler.java:41)
+	at com.dxn.im.netty.server.handler.AnswerPublishHandler.receivedPublish(AnswerPublishHandler.java:33)
+	at com.dxn.im.netty.server.protocol.ProtocolProcessor.processPublish(ProtocolProcessor.java:276)
+	at com.dxn.im.netty.server.handler.GateWayMessageHandler.channelRead(GateWayMessageHandler.java:41)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.handler.codec.http.websocketx.Utf8FrameValidator.channelRead(Utf8FrameValidator.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler$1.channelRead(WebSocketServerProtocolHandler.java:204)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:138)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+22:25:19.528 [nioEventLoopGroup-3-6] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {60c744c089f9e7a4ed3314ba50d8d696}.
+22:36:22.961 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 23052 (D:\project\target\classes started by dxn in D:\project)
+22:36:22.964 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+22:36:22.998 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+22:36:23.335 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+22:36:23.371 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.636 seconds (JVM running for 1.246)
+22:36:23.374 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server time = 2020-05-24 22:36:23,config = {}
+22:36:23.411 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - serverConfig = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}, nettyConfig = {"reuseAddr":"true","backlog":1024,"tcpNodelay":"true","webSocketInit":"true","keepalive":"true","epoll":"false"}
+22:36:23.412 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Netty is using NIO
+22:36:23.459 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Init websocket server
+22:36:23.462 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Binding server. host={0.0.0.0}, port={8090}
+22:36:23.696 [restartedMain] WARN  io.netty.bootstrap.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0xe53afeaa]'
+22:36:23.705 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Server has been bound. host={0.0.0.0}, port={8090}
+22:42:12.968 [nioEventLoopGroup-3-1] ERROR c.d.i.n.s.h.GateWayMessageHandler - Exception was caught while processing MQTT message, type={PUBLISH},null
+java.lang.IllegalArgumentException: messageId: -1 (expected: 1 ~ 65535)
+	at io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader.from(MqttMessageIdVariableHeader.java:31)
+	at com.dxn.im.netty.server.handler.AnswerPublishHandler.sendPubAck(AnswerPublishHandler.java:41)
+	at com.dxn.im.netty.server.handler.AnswerPublishHandler.receivedPublish(AnswerPublishHandler.java:33)
+	at com.dxn.im.netty.server.protocol.ProtocolProcessor.processPublish(ProtocolProcessor.java:276)
+	at com.dxn.im.netty.server.handler.GateWayMessageHandler.channelRead(GateWayMessageHandler.java:41)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.handler.codec.http.websocketx.Utf8FrameValidator.channelRead(Utf8FrameValidator.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler$1.channelRead(WebSocketServerProtocolHandler.java:204)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:138)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+22:42:12.968 [nioEventLoopGroup-3-1] WARN  i.n.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.IllegalArgumentException: messageId: -1 (expected: 1 ~ 65535)
+	at io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader.from(MqttMessageIdVariableHeader.java:31)
+	at com.dxn.im.netty.server.handler.AnswerPublishHandler.sendPubAck(AnswerPublishHandler.java:41)
+	at com.dxn.im.netty.server.handler.AnswerPublishHandler.receivedPublish(AnswerPublishHandler.java:33)
+	at com.dxn.im.netty.server.protocol.ProtocolProcessor.processPublish(ProtocolProcessor.java:276)
+	at com.dxn.im.netty.server.handler.GateWayMessageHandler.channelRead(GateWayMessageHandler.java:41)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.handler.codec.http.websocketx.Utf8FrameValidator.channelRead(Utf8FrameValidator.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler$1.channelRead(WebSocketServerProtocolHandler.java:204)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:138)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+22:42:12.970 [nioEventLoopGroup-3-1] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {60c744c089f9e7a4ed3314ba50d8d696}.
+22:42:12.971 [nioEventLoopGroup-3-2] INFO  c.d.i.n.s.c.ConnectionDescriptor - Closing connection descriptor. MqttClientId = 60c744c089f9e7a4ed3314ba50d8d696.
+22:43:05.302 [nioEventLoopGroup-3-2] ERROR c.d.i.n.s.h.GateWayMessageHandler - Exception was caught while processing MQTT message, type={PUBLISH},null
+java.lang.IllegalArgumentException: messageId: -1 (expected: 1 ~ 65535)
+	at io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader.from(MqttMessageIdVariableHeader.java:31)
+	at com.dxn.im.netty.server.handler.AnswerPublishHandler.sendPubAck(AnswerPublishHandler.java:41)
+	at com.dxn.im.netty.server.handler.AnswerPublishHandler.receivedPublish(AnswerPublishHandler.java:33)
+	at com.dxn.im.netty.server.protocol.ProtocolProcessor.processPublish(ProtocolProcessor.java:276)
+	at com.dxn.im.netty.server.handler.GateWayMessageHandler.channelRead(GateWayMessageHandler.java:41)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.handler.codec.http.websocketx.Utf8FrameValidator.channelRead(Utf8FrameValidator.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler$1.channelRead(WebSocketServerProtocolHandler.java:204)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:138)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+22:43:05.303 [nioEventLoopGroup-3-2] WARN  i.n.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.IllegalArgumentException: messageId: -1 (expected: 1 ~ 65535)
+	at io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader.from(MqttMessageIdVariableHeader.java:31)
+	at com.dxn.im.netty.server.handler.AnswerPublishHandler.sendPubAck(AnswerPublishHandler.java:41)
+	at com.dxn.im.netty.server.handler.AnswerPublishHandler.receivedPublish(AnswerPublishHandler.java:33)
+	at com.dxn.im.netty.server.protocol.ProtocolProcessor.processPublish(ProtocolProcessor.java:276)
+	at com.dxn.im.netty.server.handler.GateWayMessageHandler.channelRead(GateWayMessageHandler.java:41)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.handler.codec.http.websocketx.Utf8FrameValidator.channelRead(Utf8FrameValidator.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler$1.channelRead(WebSocketServerProtocolHandler.java:204)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:138)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+22:43:05.303 [nioEventLoopGroup-3-2] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {60c744c089f9e7a4ed3314ba50d8d696}.
+22:43:38.167 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 10000 (D:\project\target\classes started by dxn in D:\project)
+22:43:38.168 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+22:43:38.201 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+22:43:38.547 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+22:43:38.582 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.66 seconds (JVM running for 1.253)
+22:43:38.584 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server time = 2020-05-24 22:43:38,config = {}
+22:43:38.621 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - serverConfig = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}, nettyConfig = {"reuseAddr":"true","backlog":1024,"tcpNodelay":"true","webSocketInit":"true","keepalive":"true","epoll":"false"}
+22:43:38.622 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Netty is using NIO
+22:43:38.669 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Init websocket server
+22:43:38.672 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Binding server. host={0.0.0.0}, port={8090}
+22:43:38.895 [restartedMain] WARN  io.netty.bootstrap.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0xb5928145]'
+22:43:38.903 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Server has been bound. host={0.0.0.0}, port={8090}
+22:46:18.222 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 21348 (D:\project\target\classes started by dxn in D:\project)
+22:46:18.224 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+22:46:18.254 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+22:46:18.585 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+22:46:18.620 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.636 seconds (JVM running for 1.242)
+22:46:18.622 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server time = 2020-05-24 22:46:18,config = {}
+22:46:18.659 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - serverConfig = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}, nettyConfig = {"reuseAddr":"true","backlog":1024,"tcpNodelay":"true","webSocketInit":"true","keepalive":"true","epoll":"false"}
+22:46:18.660 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Netty is using NIO
+22:46:18.707 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Init websocket server
+22:46:18.710 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Binding server. host={0.0.0.0}, port={8090}
+22:46:18.942 [restartedMain] WARN  io.netty.bootstrap.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0xd4439dc0]'
+22:46:18.951 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Server has been bound. host={0.0.0.0}, port={8090}
+22:48:08.777 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 12548 (D:\project\target\classes started by dxn in D:\project)
+22:48:08.779 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+22:48:08.811 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+22:48:09.147 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+22:48:09.180 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.647 seconds (JVM running for 1.272)
+22:48:09.183 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server time = 2020-05-24 22:48:09,config = {}
+22:48:09.221 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - serverConfig = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}, nettyConfig = {"reuseAddr":"true","backlog":1024,"tcpNodelay":"true","webSocketInit":"true","keepalive":"true","epoll":"false"}
+22:48:09.222 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Netty is using NIO
+22:48:09.269 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Init websocket server
+22:48:09.272 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Binding server. host={0.0.0.0}, port={8090}
+22:48:09.519 [restartedMain] WARN  io.netty.bootstrap.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0x04663947]'
+22:48:09.528 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Server has been bound. host={0.0.0.0}, port={8090}
+23:01:16.084 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 21020 (D:\project\target\classes started by dxn in D:\project)
+23:01:16.086 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+23:01:16.123 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+23:01:16.458 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+23:01:16.493 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.66 seconds (JVM running for 1.271)
+23:01:16.495 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server time = 2020-05-24 23:01:16,config = {}
+23:01:16.533 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - serverConfig = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}, nettyConfig = {"reuseAddr":"true","backlog":1024,"tcpNodelay":"true","webSocketInit":"true","keepalive":"true","epoll":"false"}
+23:01:16.534 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Netty is using NIO
+23:01:16.581 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Init websocket server
+23:01:16.584 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Binding server. host={0.0.0.0}, port={8090}
+23:01:16.811 [restartedMain] WARN  io.netty.bootstrap.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0xa2e7c5cb]'
+23:01:16.820 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Server has been bound. host={0.0.0.0}, port={8090}
+23:04:35.387 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 1728 (D:\project\target\classes started by dxn in D:\project)
+23:04:35.389 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+23:04:35.420 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+23:04:35.750 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+23:04:35.785 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.614 seconds (JVM running for 1.247)
+23:04:35.787 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server time = 2020-05-24 23:04:35,config = {}
+23:04:35.824 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - serverConfig = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}, nettyConfig = {"reuseAddr":"true","backlog":1024,"tcpNodelay":"true","webSocketInit":"true","keepalive":"true","epoll":"false"}
+23:04:35.825 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Netty is using NIO
+23:04:35.872 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Init websocket server
+23:04:35.875 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Binding server. host={0.0.0.0}, port={8090}
+23:04:36.109 [restartedMain] WARN  io.netty.bootstrap.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0x31f8c06e]'
+23:04:36.117 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Server has been bound. host={0.0.0.0}, port={8090}
+23:06:59.109 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 27404 (D:\project\target\classes started by dxn in D:\project)
+23:06:59.111 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+23:06:59.139 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+23:06:59.484 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+23:06:59.494 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.607 seconds (JVM running for 1.215)
+23:06:59.497 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server time = 2020-05-24 23:06:59,config = {}
+23:06:59.533 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - serverConfig = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}, nettyConfig = {"reuseAddr":"true","backlog":1024,"tcpNodelay":"true","webSocketInit":"true","keepalive":"true","epoll":"false"}
+23:06:59.534 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Netty is using NIO
+23:06:59.580 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Init websocket server
+23:06:59.583 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Binding server. host={0.0.0.0}, port={8090}
+23:06:59.806 [restartedMain] WARN  io.netty.bootstrap.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0x53c7dd6a]'
+23:06:59.815 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Server has been bound. host={0.0.0.0}, port={8090}
+23:08:12.286 [nioEventLoopGroup-3-1] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {60c744c089f9e7a4ed3314ba50d8d696}.
+23:08:33.530 [nioEventLoopGroup-3-3] INFO  c.d.i.n.s.c.ConnectionDescriptor - Closing connection descriptor. MqttClientId = 60c744c089f9e7a4ed3314ba50d8d696.
+23:08:33.531 [nioEventLoopGroup-3-2] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {60c744c089f9e7a4ed3314ba50d8d696}.
+23:17:03.402 [nioEventLoopGroup-3-3] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {60c744c089f9e7a4ed3314ba50d8d696}.
+23:18:29.077 [nioEventLoopGroup-3-4] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {60c744c089f9e7a4ed3314ba50d8d696}.
+23:18:32.693 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 19620 (D:\project\target\classes started by dxn in D:\project)
+23:18:32.695 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+23:18:32.724 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+23:18:33.083 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+23:18:33.094 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.625 seconds (JVM running for 1.269)
+23:18:33.097 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server time = 2020-05-24 23:18:33,config = {}
+23:18:33.133 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - serverConfig = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}, nettyConfig = {"reuseAddr":"true","backlog":1024,"tcpNodelay":"true","webSocketInit":"true","keepalive":"true","epoll":"false"}
+23:18:33.135 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Netty is using NIO
+23:18:33.182 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Init websocket server
+23:18:33.185 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Binding server. host={0.0.0.0}, port={8090}
+23:18:33.407 [restartedMain] WARN  io.netty.bootstrap.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0x168c1dce]'
+23:18:33.415 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Server has been bound. host={0.0.0.0}, port={8090}
+23:19:14.947 [nioEventLoopGroup-3-1] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {60c744c089f9e7a4ed3314ba50d8d696}.
+23:19:18.558 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 17188 (D:\project\target\classes started by dxn in D:\project)
+23:19:18.559 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+23:19:18.590 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+23:19:18.926 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+23:19:18.937 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.604 seconds (JVM running for 1.239)
+23:19:18.965 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server time = 2020-05-24 23:19:18,config = {}
+23:19:19.003 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - serverConfig = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}, nettyConfig = {"reuseAddr":"true","backlog":1024,"tcpNodelay":"true","webSocketInit":"true","keepalive":"true","epoll":"false"}
+23:19:19.004 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Netty is using NIO
+23:19:19.053 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Init websocket server
+23:19:19.056 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Binding server. host={0.0.0.0}, port={8090}
+23:19:19.305 [restartedMain] WARN  io.netty.bootstrap.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0x9e3c1068]'
+23:19:19.314 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Server has been bound. host={0.0.0.0}, port={8090}
+23:22:21.881 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 23960 (D:\project\target\classes started by dxn in D:\project)
+23:22:21.883 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+23:22:21.917 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+23:22:22.291 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+23:22:22.302 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.646 seconds (JVM running for 1.282)
+23:22:22.305 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server time = 2020-05-24 23:22:22,config = {}
+23:22:22.341 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - serverConfig = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}, nettyConfig = {"reuseAddr":"true","backlog":1024,"tcpNodelay":"true","webSocketInit":"true","keepalive":"true","epoll":"false"}
+23:22:22.342 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Netty is using NIO
+23:22:22.390 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Init websocket server
+23:22:22.393 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Binding server. host={0.0.0.0}, port={8090}
+23:22:22.619 [restartedMain] WARN  io.netty.bootstrap.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0xf42ac3bf]'
+23:22:22.627 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Server has been bound. host={0.0.0.0}, port={8090}
+23:37:06.188 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 25276 (D:\project\target\classes started by dxn in D:\project)
+23:37:06.190 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+23:37:06.223 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+23:37:06.579 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+23:37:06.590 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.62 seconds (JVM running for 1.294)
+23:37:06.593 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server time = 2020-05-24 23:37:06,config = {}
+23:37:06.630 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - serverConfig = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}, nettyConfig = {"reuseAddr":"true","backlog":1024,"tcpNodelay":"true","webSocketInit":"true","keepalive":"true","epoll":"false"}
+23:37:06.631 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Netty is using NIO
+23:37:06.678 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Init websocket server
+23:37:06.681 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Binding server. host={0.0.0.0}, port={8090}
+23:37:06.913 [restartedMain] WARN  io.netty.bootstrap.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0xb118ffbf]'
+23:37:06.921 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Server has been bound. host={0.0.0.0}, port={8090}
+23:41:32.996 [nioEventLoopGroup-3-2] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {673126b6-0c09-4f40-8435-79a5787d2b35}.
+23:41:33.003 [nioEventLoopGroup-3-1] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {bda18d8a-c7a0-4afa-bd70-2452ee40e9bd}.
+23:41:33.006 [nioEventLoopGroup-3-3] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {fd1b1acc-afa5-43af-99ec-7eefb4784e11}.
+23:43:30.934 [nioEventLoopGroup-3-4] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {0ee34d85-e831-41cb-ba6b-a973b3b41406}.
+23:43:46.323 [nioEventLoopGroup-3-5] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {de1f5aa8-23d7-4e86-b25a-cd762953cd4d}.
+23:43:56.493 [nioEventLoopGroup-3-6] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {25ee1848-21d3-495b-a750-78a7358ab3a3}.
+23:43:56.763 [nioEventLoopGroup-3-7] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {ce1e186b-ec91-4d73-b949-ed96eb92435d}.
+23:44:10.874 [nioEventLoopGroup-3-8] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {15a513d6-ae07-4cb8-86b8-fd5e9b64e264}.
+23:44:47.608 [nioEventLoopGroup-3-11] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {e722a77e-9002-47c9-87f8-fbc6965fd7bf}.
+23:45:02.104 [nioEventLoopGroup-3-10] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {d6be61f8-1620-417c-a30f-05fbf269334b}.
+23:45:02.107 [nioEventLoopGroup-3-12] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {03be05fa-2d53-4048-9599-f38dbbbb55b8}.
+23:45:02.111 [nioEventLoopGroup-3-9] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {28df347c-392f-4ec8-ab94-134c65cb4a9d}.
+23:45:02.111 [nioEventLoopGroup-3-13] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {c578dfa1-778d-48ba-924a-53058a8aabdc}.
+23:46:25.066 [nioEventLoopGroup-3-14] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {0e4a1332-36c9-4351-a9d5-a264fa4777d2}.
+23:46:27.743 [nioEventLoopGroup-3-15] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {c12f583b-0027-4759-a477-0aa110a90745}.
+23:46:39.867 [nioEventLoopGroup-3-16] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {9b9adcf3-19db-4e8b-a7fd-05c96c12d9a7}.
+23:46:39.893 [nioEventLoopGroup-3-17] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {a8d7eab8-9e13-42ae-b25d-cebb39cbd197}.
+23:50:28.390 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 25276 (D:\project\target\classes started by dxn in D:\project)
+23:50:28.390 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+23:50:28.496 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+23:50:28.499 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.128 seconds (JVM running for 799.438)
+23:50:28.500 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+23:50:28.500 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server time = 2020-05-24 23:50:28,config = {}
+23:50:28.501 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - serverConfig = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}, nettyConfig = {"reuseAddr":"true","backlog":1024,"tcpNodelay":"true","webSocketInit":"true","keepalive":"true","epoll":"false"}
+23:50:28.501 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Netty is using NIO
+23:50:28.515 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Init websocket server
+23:50:28.516 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Binding server. host={0.0.0.0}, port={8090}
+23:50:28.516 [restartedMain] WARN  io.netty.bootstrap.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0xdaea082c]'
+23:50:28.516 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Server has been bound. host={0.0.0.0}, port={8090}
+23:50:28.517 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server success time = 2020-05-24 23:50:28
+23:50:32.014 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 25276 (D:\project\target\classes started by dxn in D:\project)
+23:50:32.014 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+23:50:32.134 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+23:50:32.139 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.146 seconds (JVM running for 803.077)
+23:50:32.140 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+23:50:32.141 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server time = 2020-05-24 23:50:32,config = {}
+23:50:32.142 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - serverConfig = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}, nettyConfig = {"reuseAddr":"true","backlog":1024,"tcpNodelay":"true","webSocketInit":"true","keepalive":"true","epoll":"false"}
+23:50:32.142 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Netty is using NIO
+23:50:32.169 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Init websocket server
+23:50:32.170 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Binding server. host={0.0.0.0}, port={8090}
+23:50:32.170 [restartedMain] WARN  io.netty.bootstrap.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0x4ed1b5a1]'
+23:50:32.170 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Server has been bound. host={0.0.0.0}, port={8090}
+23:50:32.171 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server success time = 2020-05-24 23:50:32
+23:50:33.633 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 25276 (D:\project\target\classes started by dxn in D:\project)
+23:50:33.633 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+23:50:33.753 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+23:50:33.757 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.144 seconds (JVM running for 804.696)
+23:50:33.758 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+23:50:33.759 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server time = 2020-05-24 23:50:33,config = {}
+23:50:33.761 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - serverConfig = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}, nettyConfig = {"reuseAddr":"true","backlog":1024,"tcpNodelay":"true","webSocketInit":"true","keepalive":"true","epoll":"false"}
+23:50:33.761 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Netty is using NIO
+23:50:33.780 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Init websocket server
+23:50:33.780 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Binding server. host={0.0.0.0}, port={8090}
+23:50:33.781 [restartedMain] WARN  io.netty.bootstrap.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0x785a1d9b]'
+23:50:33.781 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Server has been bound. host={0.0.0.0}, port={8090}
+23:50:33.781 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server success time = 2020-05-24 23:50:33
+23:50:33.899 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.dxn.im.ImProxyGatewayApplicationTests], using SpringBootContextLoader
+23:50:33.903 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.dxn.im.ImProxyGatewayApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+23:50:33.904 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.dxn.im.ImProxyGatewayApplicationTests]: ImProxyGatewayApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:50:33.985 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.dxn.im.ImProxyGatewayApplication for test class com.dxn.im.ImProxyGatewayApplicationTests
+23:50:34.091 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+23:50:34.101 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5b7a7f33, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@790da477, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5c7933ad, org.springframework.test.context.support.DirtiesContextTestExecutionListener@57bc27f5, org.springframework.test.context.event.EventPublishingTestExecutionListener@5fb759d6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4b8d604b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5e7cd6cc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@68c9d179, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@d554c5f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2dfaea86, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@15888343]
+23:50:34.269 [main] INFO  c.d.i.ImProxyGatewayApplicationTests - Starting ImProxyGatewayApplicationTests on DESKTOP-JIRF8IK with PID 7900 (started by dxn in D:\project)
+23:50:34.269 [main] INFO  c.d.i.ImProxyGatewayApplicationTests - No active profile set, falling back to default profiles: default
+23:50:34.631 [main] INFO  c.d.i.ImProxyGatewayApplicationTests - Started ImProxyGatewayApplicationTests in 0.495 seconds (JVM running for 1.283)
+23:52:03.984 [nioEventLoopGroup-3-18] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {59fdd70c-1dc8-444f-bca9-78da3f2ba5b4}.
+23:52:07.208 [nioEventLoopGroup-3-19] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {c3b15473-f6b9-4b8a-ae91-3ada174ed95e}.
+23:53:01.122 [nioEventLoopGroup-3-21] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {dbdde8b9-d695-4e79-b853-88f3783894f4}.

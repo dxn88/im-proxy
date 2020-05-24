@@ -1,0 +1,40 @@
+11:20:55.944 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 22448 (D:\project\target\classes started by dxn in D:\project)
+11:20:55.946 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+11:20:55.977 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:20:56.253 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:20:56.263 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.488 seconds (JVM running for 1.093)
+11:31:30.658 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 12184 (D:\project\target\classes started by dxn in D:\project)
+11:31:30.659 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+11:31:30.686 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:31:30.930 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:31:30.946 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.457 seconds (JVM running for 1.014)
+11:31:30.999 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - start Server time=2020-05-22 11:31:30,config = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}
+11:54:04.794 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 11440 (D:\project\target\classes started by dxn in D:\project)
+11:54:04.796 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+11:54:04.827 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:54:05.129 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:54:05.141 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.557 seconds (JVM running for 1.214)
+11:54:05.204 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - start Server time=2020-05-22 11:54:05,config = {"tcpPort":1443,"tcpSslPort":443,"so_keepalive":"true","tcp_nodelay":"true","httpPort":8080,"epoll":"true","ip":"0.0.0.0","webSocketSslPort":443,"so_reuseaddr":"true","so_backlog":1024,"webSocketPort":8090}
+12:09:09.894 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 17620 (D:\project\target\classes started by dxn in D:\project)
+12:09:09.896 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+12:09:09.930 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:09:10.237 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:09:10.247 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.569 seconds (JVM running for 1.186)
+12:09:10.308 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - start Server time=2020-05-22 12:09:10,config = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}
+12:09:10.309 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - start Server success time=2020-05-22 12:09:10
+12:11:09.853 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 21368 (D:\project\target\classes started by dxn in D:\project)
+12:11:09.855 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+12:11:09.883 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:11:10.196 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:11:10.206 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.568 seconds (JVM running for 1.17)
+12:11:10.268 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - start Server time=2020-05-22 12:11:10,config = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}
+12:11:10.271 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - start Server config = {"so_keepalive":"true","tcp_nodelay":"true","epoll":"true","so_reuseaddr":"true","so_backlog":1024}
+12:11:10.271 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - start Server success time=2020-05-22 12:11:10
+12:12:00.126 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 19276 (D:\project\target\classes started by dxn in D:\project)
+12:12:00.128 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+12:12:00.161 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:12:00.489 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:12:00.499 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.619 seconds (JVM running for 1.276)
+12:12:00.560 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - start Server time=2020-05-22 12:12:00,config = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}
+12:12:00.563 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - nettyConfig = {"so_keepalive":"true","tcp_nodelay":"true","epoll":"true","so_reuseaddr":"true","so_backlog":1024}
+12:12:00.563 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - start Server success time=2020-05-22 12:12:00

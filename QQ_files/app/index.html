@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>IM</title>
+<link rel="stylesheet" type="text/css" href="static/mq.css">
+<script src="static/mqttws31.js" type="text/javascript"></script>
+<script src="static/jquery-3.2.1.min.js" type="text/javascript"></script>
+</head>
+<body class="black" style="">
+	<div id="bgAllImage">
+		<img class="bgAllImage" src="static/1.jpg">
+	</div>
+	<div class="wrap">
+		<div id="container" class="container" style="display: block;">
+			<div class="panel chat-panel" id="panel-5" cmd="void"
+				style="transition: -moz-Transform 0.4s cubic-bezier(0, 1, 0, 1) 0s; transform: translate3d(0px, 0px, 0px); display: block;">
+				<header id="panelHeader-5" class="panel_header">
+					<div id="panelLeftButton-5"
+						class="btn btn_small btn_left btn_black btn_setting"
+						cmd="clickLeftButton">
+						<span id="panelLeftButtonText-5" class="btn_img"></span>
+					</div>
+					<h1 id="panelTitle-5" class="text_ellipsis padding_20">Yes'I
+						Can</h1>
+				</header>
+				<div id="panelBodyWrapper-5" class="panel_body_container"
+					style="top: 45px; bottom: 50px; overflow: auto;">
+					<div id="panelBody-5" class="panel_body chat_container">
+					</div>
+				</div>
+				<footer id="panelFooter-5" class="chat_toolbar_footer">
+					<div class="chat_toolbar">
+						<div id="add_face_btn" class="btn btn_face">
+							<span class="btn_img"></span>
+						</div>
+						<textarea id="chat_textarea"
+							class="input input_white chat_textarea"></textarea>
+						<button id="send_chat_btn" class="btn btn_small btn_blue">
+							<span class="btn_text">发送</span>
+						</button>
+						<textarea id=""
+							class="input input_white chat_textarea hidden_textarea"
+							style="height: 32px; width: 564px;"></textarea>
+					</div>
+				</footer>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+// ip、端口、clientIdd
+client = new Paho.MQTT.Client("140.143.230.219",8001,guid());
+//client = new Paho.MQTT.Client("10.110.10.7",8080,"087c7662332eed61759b5606450742b9");
+//client = new Paho.MQTT.Client("10.110.14.130",8080,"60c744c089f9e7a4ed3314ba50d8d696");
+//client = new Paho.MQTT.Client("im-long.liepin.com",443,"087c7662332eed61759b5606450742b9");
+//client = new Paho.MQTT.Client("im.liepin.com",453,"80d14b365214b3210ca1f353faaee02a");
+//client = new Paho.MQTT.Client("10.10.100.181",8080,"80d14b365214b321e84128310385ca4e");
+//client = new Paho.MQTT.Client("10.10.100.207",453,"80d14b365214b321e84128310385ca4e");
+client.onConnectionLost = onConnectionLost;
+client.onMessageArrived = onMessageArrived;
+var willMessage = new Paho.MQTT.Message("60c744c089f9e7a458767b77aae07d44");
+willMessage.destinationName = "1";
+//client.connect({onSuccess:onConnect,mqttVersion:4,useSSL:true,cleanSession:true,userName:"57f4d5a0525f805ad27e420c561affaa54d25da28d2627029708fac464f273b9",keepAliveInterval:285,willMessage:willMessage});
+client.connect({onSuccess:onConnect,mqttVersion:4,cleanSession:true,userName:"60c744c089f9e7a4d87e8ef77b07aec418117cc3f8fc4316ce5126f844ce8540",willMessage:willMessage});
+
+function onConnect() {
+alert("链接成功");
+//	client.subscribe("6fea2cc1f59134a9",{
+  //    qos : 0,
+    //  onSuccess : function(msg) {
+      //      alert("subscribe   " + "6fea2cc1f59134a9");
+   //   },
+     // onFailure : function(err) {
+       //   alert(err);
+      //}
+  //});
+  //client.subscribe("/test",{
+  //    qos : 0,
+  //    onSuccess : function(msg) {
+  //         alert("subscribe   " + "/test");
+  //    },
+  //    onFailure : function(err) {
+  //        alert(err);
+  //    }
+  //});
+}
+
+function guid() {
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+    var r = Math.random()*16|0, v = c == 'x' ? r : (r&0x3|0x8);
+    return v.toString(16);
+  });
+}
+
+function onConnectionLost(responseObject) {
+  if (responseObject.errorCode !== 0) {
+    alert(responseObject.errorCode+":"+responseObject.errorMessage);
+  }
+}
+
+function onMessageArrived(message) {
+  showMsg(message.payloadString,"toMe");
+}
+
+var	chat_textarea = document.getElementById("chat_textarea");
+function send(){
+	var msg = chat_textarea.value
+	message = new Paho.MQTT.Message(msg);
+	message.destinationName = "6fea2cc1f59134a9";
+	client.send(message);
+	showMsg(chat_textarea.value,"meTo");
+	chat_textarea.value = "";
+}
+
+function showMsg(msg,direction){
+	var toMe = "<div class='chat_content_group buddy'><img class='chat_content_avatar' src='static/getface_002.jpg' width='40px' height='40px'><p class='chat_nick'>匿名</p><p class='chat_content '>";
+	var meTo = "<div class='chat_content_group self'><img class='chat_content_avatar' src='static/g.jpg' width='40px' height='40px'><p class='chat_nick'>me</p><p class='chat_content '>";
+	var message = "";
+	if(direction == "toMe"){
+		message = toMe + msg;
+	}else{
+		message = meTo + msg;
+	}
+	message += "</p></div>";
+	$("#panelBody-5").append(message);
+	$("#panelBodyWrapper-5").scrollTop($('#panelBodyWrapper-5')[0].scrollHeight);
+}
+
+document.getElementById("send_chat_btn").addEventListener('click', send, false);
+</script>
+</html>

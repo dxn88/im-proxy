@@ -1,0 +1,13 @@
+00:06:13.993 [nioEventLoopGroup-3-20] INFO  c.d.i.n.s.h.GateWayMessageHandler - Notifying connection lost event. MqttClientId = {5114547f-2d8a-4c6f-86a0-a274e1e0c743}.
+00:36:19.771 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Starting ImProxyGatewayApplication on DESKTOP-JIRF8IK with PID 20732 (D:\project\target\classes started by dxn in D:\project)
+00:36:19.773 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - No active profile set, falling back to default profiles: default
+00:36:19.800 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+00:36:20.126 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+00:36:20.136 [restartedMain] INFO  com.dxn.im.ImProxyGatewayApplication - Started ImProxyGatewayApplication in 0.592 seconds (JVM running for 1.198)
+00:36:20.138 [restartedMain] INFO  c.dxn.im.netty.server.GateWayServer - Start server time = 2020-05-25 00:36:20,config = {}
+00:36:20.200 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - serverConfig = {"tcpPort":1443,"tcpSslPort":443,"httpPort":8080,"ip":"0.0.0.0","webSocketSslPort":443,"webSocketPort":8090}, nettyConfig = {"reuseAddr":"true","backlog":1024,"tcpNodelay":"true","webSocketInit":"true","keepalive":"true","epoll":"false"}
+00:36:20.201 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Netty is using NIO
+00:36:20.250 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Init websocket server
+00:36:20.253 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Binding server. host={0.0.0.0}, port={8090}
+00:36:20.491 [restartedMain] WARN  io.netty.bootstrap.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0xe8cc8c0b]'
+00:36:20.499 [restartedMain] INFO  com.dxn.im.netty.server.NettyServer - Server has been bound. host={0.0.0.0}, port={8090}
