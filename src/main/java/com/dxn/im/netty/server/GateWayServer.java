@@ -30,6 +30,9 @@ public class GateWayServer {
     }
 
     public synchronized void stopServer() {
-        // todo
+        initialized = false;
+        if (nettyServer != null){
+            nettyServer.close();
+        }
     }
 }

@@ -23,12 +23,14 @@ import io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler;
 import io.netty.handler.codec.mqtt.MqttDecoder;
 import io.netty.handler.codec.mqtt.MqttEncoder;
 import io.netty.handler.timeout.IdleStateHandler;
+import io.netty.util.concurrent.Future;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 @Service
 public class NettyServer {
@@ -151,6 +153,40 @@ public class NettyServer {
             log.error(
                     "An interruptedException was caught while initializing server. Protocol={" + protocol + "}", ex);
         }
+    }
+
+    public void close() {
+        log.info("Closing Netty acceptor...");
+        if (workerGroup == null || bossGroup == null) {
+            log.error("Netty acceptor is not initialized");
+            throw new IllegalStateException("Invoked close on an Acceptor that wasn't initialized");
+        }
+        Future<?> workerWaiter = workerGroup.shutdownGracefully();
+        Future<?> bossWaiter = bossGroup.shutdownGracefully();
+
+        /*
+         * We shouldn't raise an IllegalStateException if we are interrupted. If
+         * we did so, the broker is not shut down properly.
+         */
+        log.info("Waiting for worker and boss event loop groups to terminate...");
+        try {
+            workerWaiter.await(10, TimeUnit.SECONDS);
+            bossWaiter.await(10, TimeUnit.SECONDS);
+        } catch (InterruptedException iex) {
+            log.warn("An InterruptedException was caught while waiting for event loops to terminate...");
+        }
+
+        if (!workerGroup.isTerminated()) {
+            log.warn("Forcing shutdown of worker event loop...");
+            workerGroup.shutdownGracefully(0L, 0L, TimeUnit.MILLISECONDS);
+        }
+
+        if (!bossGroup.isTerminated()) {
+            log.warn("Forcing shutdown of boss event loop...");
+            bossGroup.shutdownGracefully(0L, 0L, TimeUnit.MILLISECONDS);
+        }
+
+        log.info("Collecting message metrics...");
     }
 
 }

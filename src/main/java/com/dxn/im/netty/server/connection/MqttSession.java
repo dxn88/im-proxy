@@ -22,7 +22,6 @@ import java.util.Collection;
 
 @Data
 public class MqttSession {
-
     private boolean connectionEstablished;
     private boolean cleanSession;
     private int inflightMessages;

@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class TokenAuthorizator implements IAuthenticator {
-
     private Logger log = LoggerFactory.getLogger(this.getClass());
 
     @Override

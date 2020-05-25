@@ -1,6 +1,5 @@
 package com.dxn.im.netty.server.handler;
 
-import com.dxn.im.netty.server.bean.Topic;
 import com.dxn.im.netty.server.connection.IConnectionsManager;
 import com.dxn.im.netty.server.protocol.ProtocolProcessorUtil;
 import com.dxn.im.util.NettyUtils;
