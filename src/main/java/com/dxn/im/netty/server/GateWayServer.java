@@ -1,8 +1,7 @@
 package com.dxn.im.netty.server;
 
-import com.alibaba.fastjson.JSON;
-import com.dxn.im.netty.server.config.ServerConfig;
 import com.dxn.im.util.TimeUtil;
+import io.netty.channel.ChannelFuture;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,23 +15,25 @@ public class GateWayServer {
     @Autowired
     private NettyServer nettyServer;
 
-    public synchronized void startServer() {
+    public synchronized void startServer() throws InterruptedException {
         if (initialized == true) return;
         log.info("Start server time = {},config = {}", TimeUtil.getCurrentTime());
         initEnv();
-        nettyServer.init();
+        ChannelFuture channelFuture = nettyServer.init();
         initialized = true;
         log.info("Start server success time = {}", TimeUtil.getCurrentTime());
+        channelFuture.channel().closeFuture().sync();
     }
 
     protected void initEnv() {
         // jvm参数 -Dkey=value等参数，获取 String configPath = System.getProperty("catalina.base", null);
+
     }
 
     public synchronized void stopServer() {
-        initialized = false;
-        if (nettyServer != null){
+        if (nettyServer != null) {
             nettyServer.close();
         }
+        initialized = false;
     }
 }

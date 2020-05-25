@@ -30,10 +30,10 @@ public class AnswerPublishHandler {
 //        final Topic topic = new Topic(msg.variableHeader().topicName());
         String clientID = NettyUtils.clientID(channel);
 //        MqttQoS qos = msg.fixedHeader().qosLevel();
-        int packetId = msg.variableHeader().packetId();
-        packetId = 1001;
+//        int packetId = msg.variableHeader().packetId();
+//        packetId = 1001;
 //        if (MqttQoS.AT_LEAST_ONCE == qos) {
-        sendPubAck(clientID, packetId);
+        sendPubAck(clientID, 1);
         // todo 暂时转发给所有链接 除了自己
         connectionsManager.pushMsg2All(convertByteBufToString(msg.payload()), clientID, new BiPredicate() {
             @Override

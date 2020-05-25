@@ -1,5 +1,6 @@
 package com.dxn.im.netty.server.handler;
 
+import com.dxn.im.netty.server.bean.Message;
 import com.dxn.im.netty.server.protocol.ProtocolProcessor;
 import com.dxn.im.util.NettyUtils;
 import io.netty.channel.ChannelHandler;
@@ -10,8 +11,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import static io.netty.handler.codec.mqtt.MqttQoS.AT_MOST_ONCE;
 
 @Service
 @ChannelHandler.Sharable
@@ -56,10 +55,7 @@ public class GateWayMessageHandler extends ChannelInboundHandlerAdapter {
                     processor.processPubAck(ctx.channel(), (MqttPubAckMessage) msg);
                     break;
                 case PINGREQ:
-                    MqttFixedHeader pingHeader = new MqttFixedHeader(MqttMessageType.PINGRESP, false, AT_MOST_ONCE, false,
-                            0);
-                    MqttMessage pingResp = new MqttMessage(pingHeader);
-                    ctx.writeAndFlush(pingResp);
+                    ctx.writeAndFlush(Message.pingResp);
                     break;
                 default:
                     log.error("Unkonwn MessageType:{" + messageType + "}");

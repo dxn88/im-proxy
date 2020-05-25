@@ -50,10 +50,14 @@ public class NettyServer {
     @Autowired
     private ReadTimeoutCloseChannelHandler readTimeoutCloseChannelHandler;
 
-    public void init() {
+    ChannelFuture channelFuture;
+
+    public ChannelFuture init() {
         log.info("serverConfig = {}, nettyConfig = {}", JSON.toJSON(serverConfig), JSON.toJSON(nettyConfig));
         initGroup();
         initializeWebSocketTransport();
+        initializeTCPTransport();
+        return channelFuture;
     }
 
     private void initGroup() {
@@ -106,23 +110,39 @@ public class NettyServer {
             return;
         }
         log.info("Init websocket server");
-        initFactory(serverConfig.getIp(), serverConfig.getWebSocketPort(), "Websocket MQTT", new PipelineInitializer() {
-
+        initFactory(serverConfig.getIp(), serverConfig.getWebSocketPort(), "Websocket MQTT", new PipelineInitializer(){
             @Override
             void init(ChannelPipeline pipeline) {
                 pipeline.addLast(new HttpServerCodec());
                 pipeline.addLast("aggregator", new HttpObjectAggregator(65536));
                 pipeline.addLast("webSocketHandler",
                         new WebSocketServerProtocolHandler("/mqtt", MQTT_VERSION_LIST));
-                pipeline.addLast("ws2bytebufDecoder", new WebSocketFrameToByteBufDecoder());
-                pipeline.addLast("bytebuf2wsEncoder", new ByteBufToWebSocketFrameEncoder());
-                pipeline.addFirst("idleStateHandler", new IdleStateHandler(10, 0, 0));
-                pipeline.addAfter("idleStateHandler", "idleEventHandler", readTimeoutCloseChannelHandler);
-                pipeline.addLast("decoder", new MqttDecoder());
-                pipeline.addLast("encoder", MqttEncoder.INSTANCE);
-                pipeline.addLast("handler", gateWayMessageHandler);
+                pipeline.addLast("ws2byteBufDecoder", new WebSocketFrameToByteBufDecoder());
+                pipeline.addLast("byteBuf2wsEncoder", new ByteBufToWebSocketFrameEncoder());
+                addPublicHandler(pipeline);
             }
         });
+    }
+
+    private void initializeTCPTransport() {
+        if (!Boolean.parseBoolean(nettyConfig.getTcpInit())) {
+            return;
+        }
+        log.info("Init tcp server");
+        initFactory(serverConfig.getIp(), serverConfig.getTcpPort(), "Websocket MQTT", new PipelineInitializer(){
+            @Override
+            void init(ChannelPipeline pipeline) {
+                addPublicHandler(pipeline);
+            }
+        });
+    }
+
+    private void addPublicHandler(ChannelPipeline pipeline){
+        pipeline.addFirst("idleStateHandler", new IdleStateHandler(10, 0, 0));
+        pipeline.addAfter("idleStateHandler", "idleEventHandler", readTimeoutCloseChannelHandler);
+        pipeline.addLast("decoder", new MqttDecoder());
+        pipeline.addLast("encoder", MqttEncoder.INSTANCE);
+        pipeline.addLast("handler", gateWayMessageHandler);
     }
 
     private void initFactory(String host, int port, String protocol, final PipelineInitializer pipeliner) {
@@ -146,9 +166,10 @@ public class NettyServer {
         try {
             log.info("Binding server. host={" + host + "}, port={" + port + "}");
             // Bind and start to accept incoming connections.
-            ChannelFuture channelFuture = bootstrap.bind(host, port);
+             channelFuture = bootstrap.bind(host, port);
             log.info("Server has been bound. host={" + host + "}, port={" + port + "}");
-            channelFuture.channel().closeFuture().sync();
+//            channelFuture.channel().closeFuture().sync();
+            channelFuture.sync();
         } catch (InterruptedException ex) {
             log.error(
                     "An interruptedException was caught while initializing server. Protocol={" + protocol + "}", ex);

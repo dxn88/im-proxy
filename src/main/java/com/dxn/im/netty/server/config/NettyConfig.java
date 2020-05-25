@@ -16,4 +16,5 @@ public class NettyConfig {
     private String keepalive;
     private String epoll;
     private String webSocketInit;
+    private String tcpInit;
 }

@@ -119,7 +119,7 @@ public class ProtocolProcessor {
     //    private Qos2PublishHandler qos2PublishHandler;
     @Autowired
     private AnswerPublishHandler answerPublishHandler;
-//    private MessagesPublisher messagesPublisher;
+    //    private MessagesPublisher messagesPublisher;
 //    private InflightMessageHandler inflightMessageHandler;
     private Logger log = LoggerFactory.getLogger(this.getClass());
 
@@ -152,14 +152,13 @@ public class ProtocolProcessor {
             closeWithMessage(preConnection);
         }
         // 初始化心跳handler
-        initializeKeepAliveTimeout(channel, msg, clientId);
+        initializeKeepAliveTime(channel, msg, clientId);
         // 发送connectAck给客户端
         if (!sendAck(descriptor, msg, clientId)) {
             channel.close();
             connectionDescriptors.removeConnection(descriptor);
             return;
         }
-        // todo  对消息拦截处理，暂时不做
 
         // 设置自动刷新
         if (!republish(descriptor, msg)) {
@@ -173,7 +172,7 @@ public class ProtocolProcessor {
             channel.close();
             connectionDescriptors.removeConnection(descriptor);
         }
-        // todo 用户链接成功，发送用户登录给Broker，sendRegUserStatus(clientId, EnumConnectStat.CONNECT)
+        // todo 用户链接成功，放到redis当中   imClientId , brokerId(IP)  proxy<-> broker   proxyIP <-> channel
 
         // 初始化channel.attr属性
         NettyUtils.app(channel, payload.willTopic());
@@ -232,7 +231,7 @@ public class ProtocolProcessor {
         return true;
     }
 
-    private void initializeKeepAliveTimeout(Channel channel, MqttConnectMessage msg, final String clientId) {
+    private void initializeKeepAliveTime(Channel channel, MqttConnectMessage msg, final String clientId) {
         int keepAlive = msg.variableHeader().keepAliveTimeSeconds();
         NettyUtils.keepAlive(channel, keepAlive);
         // session.attr(NettyUtils.ATTR_KEY_CLEANSESSION).set(msg.variableHeader().isCleanSession());

@@ -11,7 +11,11 @@ public class ImProxyGatewayApplication {
     public static void main(String[] args) {
         ConfigurableApplicationContext run = SpringApplication.run(ImProxyGatewayApplication.class, args);
         GateWayServer bean = run.getBean(GateWayServer.class);
-        bean.startServer();
+        try {
+            bean.startServer();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
     }
 

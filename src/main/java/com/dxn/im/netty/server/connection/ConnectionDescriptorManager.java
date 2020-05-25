@@ -114,8 +114,7 @@ public class ConnectionDescriptorManager implements IConnectionsManager {
                    builder.retained(false);
                    builder.payload(Unpooled.copiedBuffer(content.getBytes()));
                    MqttPublishMessage message = builder.build();
-
-                   sendMessage2Client(message, en.getValue().clientID);
+                   en.getValue().writeAndFlush(message);
                }
            } catch (Exception e) {
                log.error("push message to CId=" + en.getValue().clientID + " error", e);
