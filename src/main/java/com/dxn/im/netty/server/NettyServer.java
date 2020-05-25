@@ -54,6 +54,7 @@ public class NettyServer {
 
     public ChannelFuture init() {
         log.info("serverConfig = {}, nettyConfig = {}", JSON.toJSON(serverConfig), JSON.toJSON(nettyConfig));
+        // todo 初始化 proxy->broker客户端
         initGroup();
         initializeWebSocketTransport();
         initializeTCPTransport();
@@ -184,11 +185,6 @@ public class NettyServer {
         }
         Future<?> workerWaiter = workerGroup.shutdownGracefully();
         Future<?> bossWaiter = bossGroup.shutdownGracefully();
-
-        /*
-         * We shouldn't raise an IllegalStateException if we are interrupted. If
-         * we did so, the broker is not shut down properly.
-         */
         log.info("Waiting for worker and boss event loop groups to terminate...");
         try {
             workerWaiter.await(10, TimeUnit.SECONDS);
@@ -207,7 +203,6 @@ public class NettyServer {
             bossGroup.shutdownGracefully(0L, 0L, TimeUnit.MILLISECONDS);
         }
 
-        log.info("Collecting message metrics...");
     }
 
 }
